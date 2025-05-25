@@ -12,7 +12,7 @@
     <title>Word counter</title>
     <style>
         * {
-            font: font-family: 'Fira Sans', sans-serif;
+            font: 'Fira Sans', sans-serif;
         }
 
         body {
@@ -46,7 +46,7 @@
     <div class="container mt-5" style="width:70vw">
         <h1 class="text-center text-white mt-5">Word counter</h1>
         <center>
-            <textarea id="text" onkeyup="count()" style="width:60vw;height:50vh;" rows="10"></textarea>
+            <textarea id="text" oninput="count()" style="width:60vw;height:50vh;" rows="10"></textarea>
         </center>
         <p class="char_count fs-4 text-center fw-bold text-warning">Total characters:</p>
         <p class="word_count fs-4 text-center fw-bold text-warning">Total words:</p>
